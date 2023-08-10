@@ -16,6 +16,7 @@ public class Switch3Ex {
     } else if (bio.equals("독수리") || bio.equals("참새")) {
       kind = "조류";
     }
+
     System.out.printf("%s는 %s입니다.\n", bio, kind);
 
     System.out.println("\n동물의 이름을 입력해라");
