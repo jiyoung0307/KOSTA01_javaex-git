@@ -11,16 +11,21 @@ public class CircleEx {
 
   class Circle {
     private double radius = 0.0;
-
-
 //    단축키 alt + insert
-//    getter
-    public double getRadius(){
+//    Constructor
+    public Circle() {
+    }
+    //    getter
+    public Circle(double radius) {
+      this.radius = radius;
+    }
+
+    public double getRadius() {
       return radius;
     }
-//    setter
-    public void setRadius(double r) {
-      radius = r;
+
+    public void setRadius(double radius) {
+      this.radius = radius;
     }
   }
 
