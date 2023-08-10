@@ -12,6 +12,7 @@ public class CircleEx {
   class Circle {
     private double radius = 0.0;
 
+
 //    단축키 alt + insert
 //    getter
     public double getRadius(){
