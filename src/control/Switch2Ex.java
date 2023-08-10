@@ -7,7 +7,7 @@ public class Switch2Ex {
     whoIsIt("매미");
   }
 
-    static String whoIsIt(String bio) {
+    static void whoIsIt(String bio) {
     String kind ="";
     switch (bio){
       case "호랑이":
@@ -26,6 +26,5 @@ public class Switch2Ex {
         kind="해당없음";
     }
       System.out.printf("%s는 %s입니다.", bio, kind);
-      return kind;
   }
 }
