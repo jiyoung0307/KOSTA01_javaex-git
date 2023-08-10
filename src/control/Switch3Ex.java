@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class Switch3Ex {
   public static void main(String[] args) {
+//    sitch문은 리터럴과 상수는 가능하지만, 변수와 문자, 실수는 불가능하다
+
     Scanner in = new Scanner(System.in);
     System.out.println("동물의 이름을 입력해주세요");
     String bio = in.nextLine();
