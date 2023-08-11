@@ -48,10 +48,6 @@ public class Triangle {
 
 
   public boolean isSameArea(Triangle t2) {
-    if (this.findArea() == t2.findArea()) return true;
-    if (this.findArea() != t2.findArea()) return false;
-
-    return false;
-
+    return this.findArea() == t2.findArea();
   }
 }
