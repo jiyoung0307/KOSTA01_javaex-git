@@ -5,9 +5,9 @@ public class AnimalTest {
   public static void main(String[] args) {
     Object obj = new Object();
 
-//    1. 메모리 확보
-//    2. Bird 생성
-//    3. bird에 할당된다
+//    1. 참조 변수 선언 -> 객체 생성 (메모리 확보)
+//    2. Bird 생성 -> 값이 존재하지 않으므로 null이라고 임시로 지정
+//    3. bird에 값 할당된다
     int num = 10;
     Bird bird = null;
     System.out.println("bird = " + bird);
