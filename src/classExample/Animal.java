@@ -1,5 +1,6 @@
 package classExample;
 
+// 설계도
 class Animal {
   void 숨쉰다() {
     System.out.println("숨쉰다");
@@ -15,13 +16,24 @@ class Animal {
 }
 
 class Bird extends Animal {
-  void 날아간다() {
+  @Override
+  void 움직인다() {
     System.out.println("날아간다");
   }
 }
 
 class Tiger extends Animal {
-  void 달린다() {
+  @Override
+  void 움직인다() {
     System.out.println("달린다");
   }
 }
+
+class Fish extends Animal {
+  @Override
+  void 움직인다() {
+//        super.움직인다();
+    System.out.println("헤엄친다");
+  }
+}
+
