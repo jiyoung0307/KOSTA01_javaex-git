@@ -5,18 +5,24 @@ public class Circle {
   String color;
 
   public Circle() {
-    this.radius = 1.0;
-    this.color = "White";
+    this(1.0,"White");
+//    this.radius = 1.0;
+//    this.color = "White";
+
+//    this(1.0);
+//    color = "White";
   }
 
   public Circle(double radius){
-    this.radius = radius;
-    this.color = "White";
+    this(1.0,"White");
+//    this.radius = radius;
+//    this.color = "White";
   }
 
   public Circle(String color) {
-    this.radius = 1.0;
-    this.color = color;
+    this(1.0,"White");
+//    this.radius = 1.0;
+//    this.color = color;
   }
 
   public Circle(double radius, String color) {
