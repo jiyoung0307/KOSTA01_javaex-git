@@ -15,8 +15,8 @@ public class ArrayClass1Ex {
 
     int i=0;
     for (Circle circle : circles) {
-      System.out.printf("원[%d]의 넓이 = %.2f\n",i, circle.findArea());
-      i++;
+      System.out.printf("원[%d]의 넓이 = %.2f\n",i++, circle.findArea());
+//      i++;
     }
   }
 }
