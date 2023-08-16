@@ -1,4 +1,4 @@
-package challenge;
+package challengeCh4;
 
 public class Circle {
   // static / class / 정적 변수

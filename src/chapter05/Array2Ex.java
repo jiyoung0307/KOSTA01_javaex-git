@@ -1,4 +1,4 @@
-package chap05;
+package chapter05;
 
 import java.util.Arrays;
 
@@ -18,8 +18,8 @@ public class Array2Ex {
     String sArr = "abc";
     for (char c : carr) {
       System.out.println("c = " + c);
+    }
       System.out.println(Arrays.toString(carr));
       System.out.println(sArr);
-    }
   }
 }

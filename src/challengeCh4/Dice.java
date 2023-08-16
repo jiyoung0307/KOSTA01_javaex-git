@@ -1,4 +1,4 @@
-package challenge;
+package challengeCh4;
 
 /*
  * 도전 과제 8. 주사위 모델링

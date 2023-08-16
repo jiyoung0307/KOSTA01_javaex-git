@@ -1,4 +1,4 @@
-package challenge;
+package challengeCh4;
 
 public class DiceTest {
   public static void main(String[] args) {

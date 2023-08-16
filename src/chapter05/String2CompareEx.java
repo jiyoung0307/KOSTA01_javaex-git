@@ -1,4 +1,4 @@
-package chap05;
+package chapter05;
 
 import classExample.Car;
 public class String2CompareEx {
