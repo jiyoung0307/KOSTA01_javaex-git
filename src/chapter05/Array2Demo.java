@@ -10,7 +10,7 @@ public class Array2Demo {
     // -1이 입력되면, 현재 배열에 들어가 있는 점수의 총합과 평균을 구하라.
     Scanner in = new Scanner(System.in);
     ArrayList<Integer> scores = new ArrayList<>();
-
+//    int[] scores = new int[5];
     System.out.println("점수를 입력하세요");
 
     int sum = 0;
