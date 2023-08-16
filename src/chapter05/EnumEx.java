@@ -12,15 +12,23 @@ public class EnumEx {
     /* 사람 2 */
     People anotherPeople = new People();
     anotherPeople.age = 30;
-    anotherPeople.gender = Gender.FEMALE;
+    anotherPeople.gender = Gender.MALE;
     anotherPeople.direction = Direction.WEST;
 
-    if (people.gender == Gender.MALE) System.out.println("남성입니다.");
-    if (people.direction == Direction.EAST) System.out.println("동쪽입니다.");
+    if (people.gender == anotherPeople.gender) System.out.println("남성입니다.");
+    if (people.direction.compareTo(anotherPeople.direction) ==0) {
+      System.out.println("같은 방향입니다.");
+    } else {
+//      System.out.println("다른 방향입니다 : " + people.direction.compareTo(anotherPeople.direction));  // -1
+      System.out.println("다른 방향입니다 : " + anotherPeople.direction.compareTo(people.direction));    // +1
+    }
     System.out.println("people.gender = " + (people.gender));
     System.out.println("people.direction = " + (people.direction));
 
-    System.out.println("Gender.valueOf(people.gender.name()) : " + (Gender.valueOf(people.gender.name())));
+
+
+//    System.out.println("Gender.valueOf(people.gender.name()) : " + (Gender.valueOf(people.gender.name())));
+    System.out.println("people.gender.getGender() : "+ (people.gender.getGender()));
     System.out.println("people.gender.name() : " + people.gender.name());
     System.out.println("people.gender.ordinal() : " + (people.gender.ordinal()));
   }
