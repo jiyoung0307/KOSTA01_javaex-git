@@ -13,8 +13,23 @@ public class SwitchExpressionsEx {
     *   - 단, 이 경우에는 default가 반드시 존재해야 함
     * */
 
+    /* 기존 코드 */
     String grade = "B";
 
+    int score1 = 0;
+    switch (grade) {
+      case "A":
+        score1 = 100;
+        break;
+      case "B":
+        int result = 100 - 20;
+        score1 = result;
+        break;
+      default:
+        score1 = 60;
+    }
+
+    /* Expression 표현식 */
     int score = switch(grade) {
       case "A" -> 100;
       case "B" -> {
