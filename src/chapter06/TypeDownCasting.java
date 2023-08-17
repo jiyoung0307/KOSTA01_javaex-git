@@ -25,6 +25,7 @@ public class TypeDownCasting {
   }
 
   // 하나의 Method로 처리해보자
+  // 반드시 범위가 작은거부터 작성할 것
   static void downcast(Person p) {
     p.whoAmI();
 //    ClassCastException를 방지
