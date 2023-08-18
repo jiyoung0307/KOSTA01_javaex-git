@@ -1,6 +1,6 @@
 package chapter05;
 
-import challengeCh05.Month;
+import challenge05.Month;
 
 public class MonthEnumTest {
   public static void main(String[] args) {
