@@ -9,6 +9,7 @@ public class MemberServiceTest {
         new Member("홍길동", "hong", "12345", 20),
         new Member("김연아", "kim", "qwert", 20)
     };
+
     String id = "kim";
     boolean result = memberService.login(id, "qwert");
     if(result) {

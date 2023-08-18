@@ -1,37 +1,37 @@
 package challengeCh06;
 
 public class Account {
-  private final int MIN_BALANCE = 0;
-  private final int MAX_BALANCE = 1_000_000;
-
+  // 상수로 필드 값 0으로 고정 (final)
+  private final int MIN_VALUE = 0;
+  private final int MAX_VALUE = 1_000_000;
+  // 필드
   private int balance;
 
-  public Account() {
+  public void setBalance(int balance) {
+    if (balance >= MIN_VALUE && balance <= MAX_VALUE) {
+      this.balance = balance;
+    }
   }
 
   public int getBalance() {
     return balance;
   }
 
-  public void setBalance(int balances) {
-    if ((MIN_BALANCE <= balances) && (balances <= MAX_BALANCE)) {
-      this.balance += balances;
-    }
-  }
-
   public void withdraw(int money) {
-    if(money >= 0) {
-      int remain = balance - money;
-      if (remain >= MIN_BALANCE && remain <= MAX_BALANCE) {
-        this.balance = remain;
+    if (money >= 0) {
+      int remains = balance - money;
+      if (remains >= MIN_VALUE && remains <= MAX_VALUE) {
+        balance = remains;
       }
     }
   }
 
   public void deposit(int money) {
-    int remain = balance + money;
-    if ((MIN_BALANCE <= money) && (money <= MAX_BALANCE)) {
-      this.balance = remain;
+    if (money > 0) {
+      int remains = balance + money;
+      if (remains >= MIN_VALUE && remains <= MAX_VALUE) {
+        balance = remains;
+      }
     }
   }
 }
