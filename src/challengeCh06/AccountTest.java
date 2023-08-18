@@ -1,10 +1,6 @@
-package ThisisJavaEx;
+package challengeCh06;
 
-import challengeCh06.Account;
-
-import java.util.Scanner;
-
-public class BankAccountTest {
+public class AccountTest {
   public static void main(String[] args) {
     Account account = new Account();
 

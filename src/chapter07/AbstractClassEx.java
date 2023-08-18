@@ -2,7 +2,7 @@ package chapter07;
 
 public class AbstractClassEx {
   public static void main(String[] args) {
-
+// 객체 생성 (생성자)
     Circle c = new Circle();
     c.draw();
 
