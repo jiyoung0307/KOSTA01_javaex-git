@@ -93,7 +93,6 @@ public class BankApplication {
     bankAccounts[findIndex].deposit(money);
 //    findAccount();
 //    account.deposit();
-//    int money = in.nextInt();
 //    for (challengeCh06.BankAccount bankAccount : bankAccounts) {
 //      if (bankAccount == null) {    // NullPointerException 처리 (Null이면 비교할 수 없으니까)
 //        break;
