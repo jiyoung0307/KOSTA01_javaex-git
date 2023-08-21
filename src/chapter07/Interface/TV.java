@@ -22,4 +22,9 @@ public class TV implements Controllable, RemoteControllable {
   public void RemoteOff() {
     System.out.println("리모컨으로 TV를 끈다.");
   }
+
+  @Override
+  public void repair() {
+    System.out.println("TV를 수리한다.");
+  }
 }
