@@ -17,7 +17,9 @@ public class AnimalDemo {
 
 //    만일 Dog에만 있는 run과 Cuckoo에만 있는 fly를 동시에 실행하고 싶을 경우 if문을 사용해준다
     if(animal instanceof Dog) {
-      ((Dog)animal).run();
+//      ((Dog)animal).run();
+      Dog dog = (Dog)animal;
+      dog.run();
     } else if (animal instanceof Cuckoo){
       ((Cuckoo)animal).fly();
     }

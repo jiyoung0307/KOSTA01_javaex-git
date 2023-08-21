@@ -12,11 +12,11 @@ public class DatabaseExample {
 //    oracle.use();
 //    oracle.use();
 
-    // 의존성 주입 : 코드를 바꾸지 않고 사용성 향상
-    // new
     Database database = new MySQL();
     database.use();
     database.use();
     database.use();
   }
+
+
 }
