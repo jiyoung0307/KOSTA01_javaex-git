@@ -1,4 +1,4 @@
-package chapter07.NestedClass;
+package chapter07.AnonymousClass;
 
 class AnonymousDemo {
 //  익명클래스(Anonymous class) = 클래스의 선언과 객체의 생성을 동시에 하는 이름 없는 클래스(일회용)

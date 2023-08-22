@@ -18,7 +18,6 @@ abstract class Shape {
   public double findArea(){
     return 0.0;
   }
-
 }
 
 // 상속받은 draw라는 메소드가 완전하지 않으므로 에러 발생 => Override로 해결
